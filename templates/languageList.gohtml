@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Languages</title>
+</head>
+
+<body>
+
+
+<h2>Languages list </h2>
+
+<h3>{{len .}} language(s) found</h3>
+<ul>
+{{range .}}<li> {{.Code}} : {{.Name}}</li>
+{{end}}
+</ul>
+<br/><br/>
+
+</body>
+</html>
